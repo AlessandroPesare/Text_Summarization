@@ -1,3 +1,49 @@
+"""
+Requisiti del progetto. Il file contiene una lista di dipendenze Python e librerie utili per il progetto.
+Ecco la lista con una breve spiegazione:
+
+1. `transformers`: È una libreria fornita da Hugging Face che offre modelli di trasformatori preaddestrati per il trattamento del linguaggio naturale (NLP).
+È ampiamente utilizzata per il riconoscimento del linguaggio naturale, il riepilogo del testo, la traduzione automatica e altre attività legate all'NLP.
+
+2. `transformers[sentencepiece]`: Questa è un'opzione extra per la libreria `transformers` che fornisce il supporto per il tokenizzatore SentencePiece.
+
+3. `datasets`: Questa libreria offre una vasta collezione di set di dati NLP pronti all'uso e facilita l'accesso e la gestione di dati di addestramento e test per progetti NLP.
+
+4. `sacrebleu`: È una libreria utilizzata per calcolare il punteggio BLEU (Bilingual Evaluation Understudy) per valutare la qualità delle traduzioni automatiche.
+
+5. `rouge_score`: Questa libreria è utilizzata per calcolare le metriche di valutazione ROUGE (Recall-Oriented Understudy for Gisting Evaluation) utilizzate in NLP per valutare la qualità dei riassunti e delle traduzioni automatiche.
+
+6. `py7zr`: È una libreria per la manipolazione di file 7z, un formato di archivio.
+
+7. `pandas`: È una libreria molto utilizzata per la manipolazione e l'analisi dei dati.
+
+8. `nltk`: Natural Language Toolkit (NLTK) è una libreria per il trattamento del linguaggio naturale che fornisce risorse linguistiche e strumenti per l'elaborazione del testo.
+
+9. `tqdm`: È una libreria per la visualizzazione di barre di avanzamento durante l'iterazione su cicli o processi.
+
+10. `PyYAML`: È una libreria per il parsing e la scrittura di file YAML, comunemente usati per la configurazione.
+
+11. `matplotlib`: È una libreria per la creazione di grafici e visualizzazioni dati.
+
+12. `torch`: Si riferisce a PyTorch, un framework di apprendimento automatico ampiamente utilizzato.
+
+13. `notebook`: riferimento a Jupyter Notebook, un ambiente di sviluppo interattivo utilizzato per eseguire codice Python.
+
+14. `boto3`: È una libreria per l'interfacciamento con Amazon Web Services (AWS) e la gestione di servizi cloud AWS.
+
+15. `mypy-boto3-s3`: È una libreria per l'analisi statica del codice Python che fornisce tipi e completamento automatico per l'uso di Boto3 con Amazon S3.
+
+16. `python-box`: È una libreria per la gestione agevole dei dati in stile dizionario in Python.
+
+17. `ensure`: Una libreria per la validazione di tipi e condizioni.
+
+18. `fastapi` e `uvicorn`: Sono utilizzati per creare API web veloci e asincrone in Python.
+
+19. `Jinja2`: È un motore di template Python utilizzato per generare testo dinamico, spesso utilizzato in applicazioni web.
+
+20. `-e .`: Questo si riferisce a un'installazione "editable" del tuo progetto corrente. Significa che stai installando il progetto da un percorso locale in modo che le modifiche apportate al codice del progetto siano riflesse nell'ambiente virtuale in tempo reale.
+"""
+
 transformers
 transformers[sentencepiece]
 datasets
