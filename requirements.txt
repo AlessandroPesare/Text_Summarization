@@ -1,4 +1,5 @@
 """
+Rimuovi questo lungo commento prima di lanciare l'installazione dei requisiti
 Requisiti del progetto. Il file contiene una lista di dipendenze Python e librerie utili per il progetto.
 Ecco la lista con una breve spiegazione:
 
@@ -43,7 +44,6 @@ Ecco la lista con una breve spiegazione:
 
 20. `-e .`: Questo si riferisce a un'installazione "editable" del tuo progetto corrente. Significa che stai installando il progetto da un percorso locale in modo che le modifiche apportate al codice del progetto siano riflesse nell'ambiente virtuale in tempo reale.
 """
-
 transformers
 transformers[sentencepiece]
 datasets
